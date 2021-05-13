@@ -1,11 +1,20 @@
+body
+{
+    height: 100%;
+    width: 1440px;
+}
+
 .main
 {
+    border-radius: 10px;
+    overflow: hidden;
     display: flex;
     flex-direction: row;
-    margin-left: 20%;
-    margin-right: 20%;
+    align-items: normal;
     margin-top: 15%;
     margin-bottom: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .box1
@@ -23,17 +32,43 @@
     background-color: hsl(179, 100%, 13%);
 }
 
-.h1
+.pic
 {
-    font-size: 15px;
-    font-family: 'Big Shoulders Display', cursive;
-    font-weight: 700;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 
-.p
+h1
+{
+    color: hsl(0, 0%, 95%);
+    font-size: 40px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+p
 {
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
+    margin-left: 15%;
+    margin-right: 22%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.button_style
+{
+    background-color: hsl(0, 0%, 95%);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
