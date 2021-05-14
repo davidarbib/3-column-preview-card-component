@@ -67,6 +67,10 @@ p
 .button_style
 {
     background-color: hsl(0, 0%, 95%);
+    height: 8%;
+    width: 42%;
+    border-radius: 25px;
+    border: none;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 15%;
