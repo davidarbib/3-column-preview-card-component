@@ -17,17 +17,28 @@ body
     margin-right: 15%;
 }
 
-.box1
+.wrapper
+{
+    display: grid;
+}
+
+.card
+{
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.sedan_box
 {
     background-color: hsl(31, 77%, 52%);
 }
 
-.box2
+.suv_box
 {
     background-color: hsl(184, 100%, 22%);
 }
 
-.box3
+.lux_box
 {
     background-color: hsl(179, 100%, 13%);
 }
@@ -36,43 +47,83 @@ body
 {
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-bottom: 1rem;
 }
 
 h1
 {
     color: hsl(0, 0%, 95%);
+
     font-size: 40px;
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
+
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 0%;
+    margin-top: 1rem;
     margin-bottom: 0%;
 }
 
 p
 {
     color: hsla(0, 0%, 100%, 0.75);
+
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
+
     margin-left: 15%;
     margin-right: 22%;
     margin-top: 15%;
     margin-bottom: 15%;
+
+    letter-spacing: 110%;
+    line-height: 160%;
 }
 
 .button_style
 {
     background-color: hsl(0, 0%, 95%);
-    height: 8%;
-    width: 42%;
+
+    height: 3rem;
+    width: 9rem;
+
     border-radius: 25px;
     border: none;
+
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 15%;
-    margin-bottom: 15%;
+
+    font-family: 'Lexend Deca', sans-serif;
+
+    mix-blend-mode: screen;
+}
+
+.button_style::before
+{
+    background-color: hsl(0, 0%, 95%);
+
+    height: 3rem;
+    width: 9rem;
+
+    border-radius: 25px;
+    border: none;
+
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15%;
+
+    font-family: 'Lexend Deca', sans-serif;
+
+    mix-blend-mode: color-burn;
+}
+
+.button_style:hover
+{
+    background-color: transparent;
+    border-color: hsl(0, 0%, 95%);
+    border: solid;
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
 }
